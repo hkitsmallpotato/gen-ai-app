@@ -1,0 +1,107 @@
+{
+    "meta": {
+      "appName": "Open A Shop!",
+      "description": "A roleplaying prompt for the 'Open A Shop!' app",
+      "prompt": "As a shopkeeper, I understand that you're looking to open a new physical shop and you're looking for some advice and assistance in getting started. You've come to the right place! I'm here to help you with various common tasks involved in starting a new shop, such as finding the perfect location, creating a business plan, and choosing the right inventory.\n\nSo, to get started, I'd like to know a bit more about your shop. Can you tell me:\n\n1. What kind of products do you plan to sell in your shop?\n2. Do you have a preferred location in mind for your shop?\n3. What is your budget for starting the shop?\n\nOnce I have a better understanding of your needs and preferences, I can provide you with more tailored advice and assistance to help you open your new shop!"
+    },
+    "ui": [
+      {
+        "desc": "What kind of products do you plan to sell in your shop?",
+        "datatype": {
+          "type": "textfield",
+          "variant": "long"
+        }
+      },
+      {
+        "desc": "Do you have a preferred location in mind for your shop?",
+        "datatype": {
+          "type": "textfield",
+          "variant": "short"
+        }
+      },
+      {
+        "desc": "What is your budget for starting the shop?",
+        "datatype": {
+          "type": "options",
+          "variant": "dropdown-single",
+          "options": [
+            "Less than $1000",
+            "$1000-$5000",
+            "$5000-$10000",
+            "More than $10000"
+          ]
+        }
+      }
+    ],
+    "eg": [
+      [
+        "Books, stationery, gifts",
+        "Downtown area, near a university",
+        "$5000-$10000",
+        "I would like to have a cozy atmosphere and a comfortable seating area for customers to browse through books."
+      ],
+      [
+        "Women's and men's clothing, accessories",
+        "In a trendy neighborhood with a lot of foot traffic",
+        "Less than $1000",
+        "I would like to have a mix of classic and trendy pieces, and I'm open to sourcing products from local designers."
+      ],
+      [
+        "Gourmet street food, specializing in burgers and tacos",
+        "Outside popular events and festivals, or near office buildings during lunch hours",
+        "$1000-$5000",
+        "I would like to have a small menu with high-quality ingredients and unique flavor combinations."
+      ],
+      [
+        "Pet food, toys, grooming supplies, and pet accessories",
+        "In a family-friendly neighborhood with a lot of pet owners",
+        "$5000-$10000",
+        "I would like to offer pet adoption services and host pet-related events in-store."
+      ],
+      [
+        "Home decor items such as throw pillows, wall art, vases, and candles",
+        "In a upscale neighborhood with a lot of homeowners",
+        "$1000-$5000",
+        "I would like to have a wide range of products with a mix of modern and traditional styles, and I'm open to sourcing products from local artists and artisans."
+      ]
+    ],
+    "chain": [
+      {
+        "name": "business_planning_strategy",
+        "question": "Can you help me identify my target market and create a marketing plan to reach them?"
+      },
+      {
+        "name": "business_planning_strategy",
+        "question": "What are some potential challenges and opportunities in the [insert location here] market for my type of shop?"
+      },
+      {
+        "name": "business_planning_strategy",
+        "question": "How can I create a competitive advantage for my shop in the market?"
+      },
+      {
+        "name": "shop_operations_logistics",
+        "question": "What are the key factors to consider when choosing a location for my shop?"
+      },
+      {
+        "name": "shop_operations_logistics",
+        "question": "How many square feet of space will I need for my shop, and what is the typical cost per square foot in the area?"
+      },
+      {
+        "name": "shop_operations_logistics",
+        "question": "What are the necessary steps to secure a lease for my shop space, and what types of leases are typically available?"
+      },
+      {
+        "name": "legal_financial_considerations",
+        "question": "What are the legal requirements for starting a business in [insert location here], and what documents will I need to prepare?"
+      },
+      {
+        "name": "legal_financial_considerations",
+        "question": "How much capital will I need to start my shop, and what are the typical costs for [insert type of shop here]?"
+      },
+      {
+        "name": "legal_financial_considerations",
+        "question": "What are the tax implications of starting a business in [insert location here], and how can I minimize my tax liability?"
+      }
+    ]
+  }
+  

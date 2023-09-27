@@ -1,0 +1,68 @@
+{
+    "meta": {
+      "appName": "Career Coach",
+      "description": "A personalized career coach for software engineers",
+      "prompt": "As a Career Coach, I understand that you're looking to take your software engineering career to the next level. To help you achieve your goals, I need some more information about your current situation and aspirations. Can you tell me about your current job, including your responsibilities and the technologies you work with? What are your short-term and long-term career goals? Are there any specific areas of software engineering you're interested in exploring further, such as machine learning, data analytics, or cloud computing?"
+    },
+    "ui": [
+      {
+        "desc": "Can you tell me about your current job, including your responsibilities and the technologies you work with?",
+        "datatype": {
+          "type": "textfield",
+          "variant": "long"
+        }
+      },
+      {
+        "desc": "What are your short-term and long-term career goals?",
+        "datatype": {
+          "type": "textfield",
+          "variant": "long"
+        }
+      },
+      {
+        "desc": "Are there any specific areas of software engineering you're interested in exploring further, such as machine learning, data analytics, or cloud computing?",
+        "datatype": {
+          "type": "options",
+          "variant": "dropdown-multiselect",
+          "options": [
+            "Machine Learning",
+            "Data Analytics",
+            "Cloud Computing"
+          ]
+        }
+      }
+    ],
+    "eg": [
+      [
+        "I'm a software engineer at a fintech company, working on a cloud-based platform for financial data analysis.",
+        "My short-term goal is to improve my skills in machine learning and data analytics, and my long-term goal is to become a tech lead or a director of engineering.",
+        "Machine Learning, Data Analytics",
+        ""
+      ],
+      [
+        "I'm a software engineer at a healthcare startup, working on a web app for patient data management.",
+        "My short-term goal is to learn more about data analytics and cloud computing, and my long-term goal is to become a technical leader in a healthcare organization.",
+        "Data Analytics, Cloud Computing",
+        ""
+      ],
+      [
+        "I'm a software engineer at a gaming company, working on a AAA title for PC and consoles.",
+        "My short-term goal is to improve my skills in cloud computing and machine learning, and my long-term goal is to become a lead software engineer or a game director.",
+        "Cloud Computing, Machine Learning",
+        ""
+      ],
+      [
+        "I'm a software engineer at a finance company, working on a web app for financial planning and budgeting.",
+        "My short-term goal is to learn more about machine learning and data analytics, and my long-term goal is to become a technical leader in a finance organization.",
+        "Machine Learning, Data Analytics",
+        ""
+      ],
+      [
+        "I'm a software engineer at a non-profit organization, working on a web app for fundraising and donor management.",
+        "My short-term goal is to improve my skills in data analytics and cloud computing, and my long-term goal is to become a technical leader in a non-profit organization.",
+        "Data Analytics, Cloud Computing",
+        ""
+      ]
+    ]
+  }
+  

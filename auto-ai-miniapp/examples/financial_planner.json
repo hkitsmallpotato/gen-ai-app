@@ -1,0 +1,75 @@
+{
+    "meta": {
+      "appName": "Financial Planning",
+      "description": "Personalized financial planning for your future",
+      "prompt": "As a financial advisor, I understand that you're looking to get your finances in order and start planning for your future. I will help you create a personalized financial plan that aligns with your goals and budget. To get started, could you please tell me a bit about your income, expenses, debts, and financial goals?"
+    },
+    "ui": [
+      {
+        "desc": "Income",
+        "datatype": {
+          "type": "textfield",
+          "variant": "short"
+        }
+      },
+      {
+        "desc": "Expenses",
+        "datatype": {
+          "type": "textfield",
+          "variant": "short"
+        }
+      },
+      {
+        "desc": "Debts",
+        "datatype": {
+          "type": "textfield",
+          "variant": "short"
+        }
+      },
+      {
+        "desc": "Financial Goals",
+        "datatype": {
+          "type": "textfield",
+          "variant": "long"
+        }
+      }
+    ],
+    "eg": [
+      [
+        "$50,000 per year",
+        "$3,000 per month (housing, food, transportation, etc.)",
+        "$10,000 credit card debt, $20,000 student loans",
+        "Save for a down payment on a house, pay off debts within 2 years",
+        "I'd like to retire within the next 10 years and want to make sure my investments are on track."
+      ],
+      [
+        "$75,000 per year",
+        "$5,000 per month (housing, food, transportation, etc.)",
+        "$5,000 credit card debt, $15,000 personal loan",
+        "Save for a new car, pay off debts within 1 year",
+        "I'd like to start a family within the next 2 years and want to make sure I have enough savings for a comfortable life."
+      ],
+      [
+        "$40,000 per year",
+        "$2,500 per month (housing, food, transportation, etc.)",
+        "$30,000 credit card debt, $10,000 personal loan",
+        "Pay off debts within 6 months, save for a vacation",
+        "I'm currently unemployed and looking for a new job. I need help creating a budget that will help me get back on my feet."
+      ],
+      [
+        "$100,000 per year",
+        "$10,000 per month (housing, food, transportation, etc.)",
+        "$0",
+        "Save for retirement, invest in the stock market",
+        "I'd like to retire early and travel the world. I'm looking for investment advice to make my savings grow faster."
+      ],
+      [
+        "$20,000 per year",
+        "$1,500 per month (housing, food, transportation, etc.)",
+        "$5,000 credit card debt",
+        "Save for a emergency fund, pay off debts within 3 months",
+        "I'm a recent college graduate and am struggling to make ends meet. I need help creating a budget that will help me get started on the right track."
+      ]
+    ]
+  }
+  

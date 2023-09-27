@@ -1,0 +1,90 @@
+{
+    "meta": {
+      "appName": "Spiritual Companion",
+      "description": "A chat-based AI app that provides personalized spiritual guidance and support.",
+      "prompt": "As a Spiritual Companion, I understand that you are seeking guidance and support during this challenging time. I will provide you with personalized spiritual teachings, quotes, and practices from various religious traditions to help you find peace, comfort, and clarity. Please share with me your current emotions and concerns, and let's begin our spiritual journey together."
+    },
+    "ui": [
+      {
+        "desc": "What is your current emotional state?",
+        "datatype": {
+          "type": "options",
+          "variant": "radio",
+          "options": [
+            "Happy",
+            "Sad",
+            "Anxious",
+            "Angry",
+            "Neutral"
+          ]
+        }
+      },
+      {
+        "desc": "What are your concerns?",
+        "datatype": {
+          "type": "textfield",
+          "variant": "long"
+        }
+      },
+      {
+        "desc": "What is your current spiritual practice?",
+        "datatype": {
+          "type": "options",
+          "variant": "dropdown-single",
+          "options": [
+            "None",
+            "Christianity",
+            "Islam",
+            "Buddhism",
+            "Hinduism",
+            "Other"
+          ]
+        }
+      },
+      {
+        "desc": "What are your goals for spiritual growth?",
+        "datatype": {
+          "type": "textfield",
+          "variant": "long"
+        }
+      }
+    ],
+    "eg": [
+      [
+        "Sad",
+        "Feeling lost and disconnected from my spiritual practice",
+        "Christianity",
+        "To find a deeper sense of meaning and purpose in my life",
+        ""
+      ],
+      [
+        "Anxious",
+        "Struggling with negative thoughts and self-doubt",
+        "Buddhism",
+        "To cultivate more mindfulness and compassion in my daily life",
+        ""
+      ],
+      [
+        "Angry",
+        "Feeling resentful and bitter towards a loved one who passed away",
+        "Islam",
+        "To find forgiveness and peace in my heart",
+        ""
+      ],
+      [
+        "Neutral",
+        "Seeking guidance on how to navigate a challenging life situation",
+        "Hinduism",
+        "To gain a deeper understanding of the interconnectedness of all things",
+        ""
+      ],
+      [
+        "Happy",
+        "Looking for ways to stay grounded and centered in my spiritual practice",
+        "None (seeking guidance on how to start a spiritual practice)",
+        "To find a spiritual practice that resonates with me and brings me joy and fulfillment",
+        ""
+      ]
+    ]
+  }
+  

@@ -1,0 +1,129 @@
+{
+    "meta": {
+      "appName": "DesignMate",
+      "description": "Personalized interior design recommendations",
+      "prompt": "As a DesignMate, I understand that you're looking for personalized interior design recommendations for your space. To get started, could you please provide me with some basic information about your space and your preferences? This will help me provide you with the most tailored suggestions for furniture and decor that fit your style and the specific dimensions of your space.\n\nFirst, could you tell me about the size of your space? What is the approximate square footage, and what is the layout of the room(s) you'd like to design? Next, could you tell me about your style preferences? Do you have a specific aesthetic in mind, such as modern, traditional, or eclectic? Are there any specific colors, textures, or materials you'd like to incorporate into your design? Finally, what is your budget for this project? Knowing this information will help me provide you with the most relevant and affordable design suggestions."
+    },
+    "ui": [
+      {
+        "desc": "Size of your space",
+        "datatype": {
+          "type": "textfield",
+          "variant": "short"
+        }
+      },
+      {
+        "desc": "Layout of your space",
+        "datatype": {
+          "type": "textfield",
+          "variant": "long"
+        }
+      },
+      {
+        "desc": "Style preferences",
+        "datatype": {
+          "type": "options",
+          "variant": "dropdown-single",
+          "options": [
+            "Modern",
+            "Traditional",
+            "Eclectic",
+            "Other"
+          ]
+        }
+      },
+      {
+        "desc": "Specific colors, textures, or materials you'd like to incorporate into your design",
+        "datatype": {
+          "type": "options",
+          "variant": "dropdown-multiselect",
+          "options": [
+            "Wood",
+            "Metal",
+            "Glass",
+            "Plastic",
+            "Leather",
+            "Fabric",
+            "Cotton",
+            "Wool",
+            "Silk",
+            "Natural",
+            "Synthetic",
+            "Colorful",
+            "Monochromatic",
+            "Neutral",
+            "Bold",
+            "Subtle",
+            "Patterned",
+            "Striped",
+            "Polka-dotted",
+            "Geometric",
+            "Organic",
+            "Minimalist",
+            "Rustic",
+            "Vintage",
+            "Contemporary",
+            "Other"
+          ]
+        }
+      },
+      {
+        "desc": "Budget for this project",
+        "datatype": {
+          "type": "options",
+          "variant": "dropdown-single",
+          "options": [
+            "$1000-$5000",
+            "$5000-$10000",
+            "$10000-$20000",
+            "$20000-$50000",
+            "$50000-$100000",
+            "More than $100000"
+          ]
+        }
+      }
+    ],
+    "eg": [
+      [
+        "My living room is approximately 12 feet by 15 feet (180 square feet).",
+        "It has a rectangular shape with a sectional sofa and a few chairs arranged around a coffee table.",
+        "I prefer a modern style with clean lines and minimalist decor.",
+        "I would like to use a lot of natural light and incorporate some greenery into the space. I also like the idea of using a mixture of wood and metal accents.",
+        "$1000-$5000",
+        "I have a large window that I'd like to highlight with some decorative window treatments. Also, I have a few pieces of artwork that I'd like to incorporate into the design."
+      ],
+      [
+        "My bedroom is approximately 10 feet by 12 feet (120 square feet).",
+        "It has a rectangular shape with a queen-sized bed, a dresser, and a nightstand.",
+        "I prefer a traditional style with warm, inviting colors and classic furniture pieces.",
+        "I would like to use a warm beige color scheme with some soft fabrics like velvet and linen.",
+        "$5000-$10000",
+        "I have a few antique pieces that I'd like to incorporate into the design, such as a vintage dresser and a rocking chair."
+      ],
+      [
+        "My kitchen is approximately 15 feet by 10 feet (150 square feet).",
+        "It has a rectangular shape with a large island in the center and a few chairs arranged around it.",
+        "I prefer an eclectic style with a mix of modern and vintage pieces.",
+        "I would like to use a lot of natural materials like wood and stone, and incorporate some pops of color like red and orange.",
+        "$10000-$20000",
+        "I have a few collectibles that I'd like to display in the space, such as a vintage tea set and a few framed prints."
+      ],
+      [
+        "My bathroom is approximately 6 feet by 8 feet (48 square feet).",
+        "It has a rectangular shape with a sink, toilet, and shower/bathtub.",
+        "I prefer a modern style with clean lines and minimalist decor.",
+        "I would like to use a lot of glass and stainless steel, and incorporate some greenery like plants or a living wall.",
+        "More than $10000",
+        "I have a few pieces of artwork that I'd like to incorporate into the design, such as a large abstract painting and a few framed photographs."
+      ],
+      [
+        "My home office is approximately 10 feet by 12 feet (120 square feet).",
+        "It has a rectangular shape with a desk, chair, and a few bookshelves.",
+        "I prefer a modern style with clean lines and minimalist decor.",
+        "I would like to use a lot of natural light and incorporate some ergonomic furniture pieces like a standing desk and a comfortable chair.",
+        "$5000-$10000",
+        "I have a few collectibles that I'd like to display in the space, such as a vintage typewriter and a few framed prints of famous authors."
+      ]
+    ]
+  }
+  
